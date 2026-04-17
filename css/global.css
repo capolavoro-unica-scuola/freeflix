@@ -1,0 +1,66 @@
+:root {
+  --crust: #11111b;
+  --mantle: #181825;
+  --base: #1e1e2e;
+
+  --surface-0: #313244;
+  --surface-1: #45475a;
+  --surface-2: #585b70;
+
+  --overlay-0: #6c7086;
+  --overlay-1: #7f849c;
+  --overlay-2: #9399b2;
+
+  --text: #cdd6f4;
+  --subtext-1: #bac2de;
+  --subtext-0: #a6adc8;
+
+  --rosewater: #dc8a78;
+  --flamingo: #dd7878;
+  --pink: #ea76cb;
+  --mauve: #8839ef;
+  --red: #d20f39;
+  --maroon: #e64553;
+  --peach: #fe640b;
+  --yellow: #df8e1d;
+  --green: #40a02b;
+  --teal: #179299;
+  --sky: #04a5e5;
+  --sapphire: #209fb5;
+  --blue: #1e66f5;
+  --lavender: #7287fd;
+
+  --accent: var(--mauve);
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--crust);
+}
+
+/* Util */
+.hover-effect {
+  transition: 0.3s;
+}
+
+.hover-effect:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.hover-effect:active {
+  transform: translateY(2px);
+}
+
+.hover-scale {
+  transition: 0.3s;
+}
+
+.hover-scale:hover {
+  scale: 1.2;
+}

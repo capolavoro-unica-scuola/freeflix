@@ -1,0 +1,44 @@
+header {
+    background-color: var(--mantle);
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    display: flex;
+    padding: 16px;
+    margin: 12px;
+    height: 5em;
+    gap: 1em;
+}
+
+header img {
+    width: 7em;
+}
+
+header input {
+    background-color: var(--crust);
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: .3s;
+    display: flex;
+    padding: 12px;
+    outline: 0;
+    border: 0;
+}
+
+header input:focus {
+    box-shadow: 0 0 64px var(--mantle);
+    scale: 1.2;
+}
+
+header > nav {
+    margin-left: auto;
+    display: flex;
+    gap: 1em;
+}
+
+header > nav > span {
+    background-color: var(--accent);
+    border-radius: 4px;
+    padding: 6px;
+}

@@ -1,0 +1,17 @@
+main nav {
+  background-color: var(--mantle);
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin-left: auto;
+  padding: 8px;
+}
+
+main nav p {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+main nav .filters-wrapper {
+  flex-direction: column;
+  display: flex;
+}

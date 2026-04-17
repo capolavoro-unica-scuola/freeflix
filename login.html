@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeFlix - Login</title>
+
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+
+  <body>
+    <img src="img/logo.png" alt="Logo" />
+    <p>- Buy freely, watch freer -</p>
+
+    <form action="index.html">
+      <label>
+        Username
+        <input type="text" />
+      </label>
+
+      <label>
+        Password
+        <input type="password" />
+      </label>
+
+      <input class="hover-effect hover-scale" type="submit" value="Login" />
+    </form>
+  </body>
+
+  <style>
+    body {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      gap: 1rem;
+    }
+
+    label {
+      align-items: center;
+      display: flex;
+      gap: 1em;
+    }
+
+    label input {
+      margin-left: auto;
+    }
+
+    form {
+      display: grid;
+      gap: 1em;
+    }
+
+    input {
+      background-color: var(--base);
+      border-radius: 4px;
+      padding: 6px;
+      outline: 0;
+      border: 0;
+    }
+
+    img {
+      width: 300px;
+    }
+  </style>
+</html>

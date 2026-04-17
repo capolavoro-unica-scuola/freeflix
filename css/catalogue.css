@@ -1,0 +1,11 @@
+.catalogue {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1em;
+}
+
+.catalogue img {
+  border-radius: 2px;
+  height: 400px;
+}

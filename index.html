@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeFlix</title>
+
+    <script type="module" src="js/input-auto-placeholders.js"></script>
+    <script src="js/catalogue.js"></script>
+    
+    <link rel="stylesheet" href="css/global.css">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/catalogue.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <img class="hover-effect" src="img/logo.png" alt="Logo" />
+      <input type="text" id="search-bar" />
+
+      <nav>
+        <span class="hover-effect">Categorie</span>
+        <span class="hover-effect">Novità</span>
+        <span class="hover-effect">Profilo</span>
+      </nav>
+    </header>
+
+    <main>
+      <div class="catalogue" id="catalogue-wrapper"></div>
+
+      <nav>
+        <ul class="filters-wrapper">
+          <p>Genere</p>
+          <label>
+            <input type="checkbox" data-filter-type="genre" />
+            Azione
+          </label>
+          <label>
+            <input type="checkbox" data-filter-type="genre" />
+            Commedia
+          </label>
+          <label>
+            <input type="checkbox" data-filter-type="genre" />
+            Horror
+          </label>
+
+          <p>Regista</p>
+          <label>
+            <input type="checkbox" data-filter-type="director" />
+            David Lynch
+          </label>
+
+          <label>
+            <input type="checkbox" data-filter-type="director" />
+            Stanley Kubrick
+          </label>
+
+          <label>
+            <input type="checkbox" data-filter-type="director" />
+            Phil Lord
+          </label>
+
+          <label>
+            <input type="checkbox" data-filter-type="director" />
+            Christopher Miller
+          </label>
+
+          <p>Attori</p>
+          <label>
+            <input type="checkbox" data-filter-type="actor" />
+            Checco Zalone
+          </label>
+
+          <label>
+            <input type="checkbox" data-filter-type="actor" />
+            Jim Carrey
+          </label>
+
+          <label>
+            <input type="checkbox" data-filter-type="actor" />
+            Johnny Depp
+          </label>
+        </ul>
+      </nav>
+    </main>
+  </body>
+</html>
