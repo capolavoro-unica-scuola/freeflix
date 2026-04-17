@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     for (const elem of filteredMedia) {
       const img = document.createElement("img");
 
-      img.src = `/img/posters/${elem.name}.jpg`;
+      img.src = `img/posters/${elem.name}.jpg`;
       img.title = elem.name;
       img.classList.add("hover-effect", "hover-scale");
 
